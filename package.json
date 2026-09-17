@@ -1,0 +1,19 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "zola build && npx @tailwindcss/cli -i ./public/input.css -o ./public/style.css -m",
+    "serve": "start \"Zola\" cmd /c \"zola serve --interface 0.0.0.0\" && npx @tailwindcss/cli -i ./public/input.css -o ./public/style.css --watch",
+    "test": "echo Error: no test specified && exit 1"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "@tailwindcss/typography": "^0.5.20",
+    "tailwindcss": "^4.3.3"
+  }
+}

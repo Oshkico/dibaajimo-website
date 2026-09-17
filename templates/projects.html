@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!-- Hero / Image Banner -->
+<section class="relative h-[33vh] min-h-[300px] w-full">
+
+    <!-- Background Image -->
+    <img src="/images/mush.png" align-center class="absolute inset-0 h-full w-full object-cover" />
+
+    <!-- Dark Overlay -->
+    <div class="absolute inset-0 bg-black/30"></div>
+
+    <!-- Text -->
+    <div class="relative flex h-full items-center justify-center text-center">
+        <div class="text-white">
+            <h1 class="text-4xl font-bold md:text-6xl">
+                Projects
+            </h1>
+        </div>
+    </div>
+
+
+</section>
+
+<!-- add images to div -->
+<section>
+    <div class="flex">
+        <div class=" bg-cover bg-no-repeat flex-1 h-[800px] bg-[url(/images/nova.jpg)]"></div>
+        <div class="flex-1 h-[800px] bg-blue-200 content-center">
+            <p class="p-15 text-center text-lg md:text-xl">
+                Join astronaut Marshmallow and their co-pilot, Berry the engineer, on a thrilling space adventure! When
+                their ship collides with a meteorite, they crash-land on a lush, mysterious planet. Stranded, they must
+                explore this new world to find the resources needed to repair their ship. Along the way, they encounter
+                the Novarians, an Anishinaabe mushroom-based species. With their new friends, Marsh, Berry, and Nova
+                embark on an exciting journey, meeting unique characters and discovering the Anishinaabe mythology
+                spread across Turtle Island.
+
+                Planet Nova will have 8, 11 minute episodes. Planet Nova will be offered in English and in
+                Anishinaabemowin. Lip syncing will be animated in both English and Anishinaabemowin.
+
+            </p>
+        </div>
+    </div>
+</section>
+
+
+
+{% endblock content %}

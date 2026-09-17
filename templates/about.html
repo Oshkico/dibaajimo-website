@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!-- Hero / Image Banner -->
+<section class="relative h-[33vh] min-h-[300px] w-full">
+
+    <!-- Background Image -->
+    <img src="/images/mush.png" align-center class="absolute inset-0 h-full w-full object-cover" />
+
+    <!-- Dark Overlay -->
+    <div class="absolute inset-0 bg-black/30"></div>
+
+    <!-- Text -->
+    <div class="relative flex h-full items-center justify-center text-center">
+        <div class="text-white">
+            <h1 class="text-4xl font-bold md:text-6xl">
+                About Us
+            </h1>
+        </div>
+    </div>
+
+
+</section>
+
+<!-- add images to div -->
+<section>
+    <div class="flex">
+        <div class=" bg-cover bg-no-repeat flex-1 h-[1000px] bg-[url(/images/tawny.jpg)]"></div>
+        <div class="flex-1 bg-blue-200 content-center">
+            <p class="p-15 text-center text-lg md:text-xl">
+                Founded in 2024 by multi disciplinary artist Tawny Daigle, Dibaajimo started off as a personal goal to create more indigenous content after their reconnection to Anishinaabemowin. After graduating Video Game Animation from Toronto Film School, struggling to find consistent work within the industry proved to be difficult after the industry had experienced a noticeable decline in jobs after the pandemic. Not wanted to move far away from their home reserve Batchewana First Nation, and noticing a large gap in indigenous related media, she decided to begin her own production with the help of her mentors at Rusty Halo Productions. 
+
+Working on their first production Planet Nova, it taught the difficulty of finding language speakers, writers, animators, and other indigenous creatives within the tech space. Seeing a need to better connect indigenous individuals and their voices, Tawny created Dibaajimo.
+
+
+            </p>
+        </div>
+    </div>
+</section>
+
+
+
+{% endblock content %}
